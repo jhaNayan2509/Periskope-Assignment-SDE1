@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #25d366;
+  --sidebar: #f8f9fa;
+  --chat-bg: #ece5dd;
+  --chat-bubble: #dcf8c6;
+  --chat-bubble-other: #fff;
+  --text-main: #222;
+  --text-secondary: #555;
+  --icon: #919191;
+  --border: #e0e0e0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Optional: Custom scrollbar for a cleaner look */
+::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #e0e0e0;
+  border-radius: 8px;
+}
