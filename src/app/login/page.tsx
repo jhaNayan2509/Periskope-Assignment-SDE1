@@ -69,7 +69,7 @@ export default function LoginPage() {
         onSubmit={handleSubmit}
       >
         <div className="w-16 h-16 mb-6 rounded-full bg-green-100 flex items-center justify-center">
-          <span className="text-green-600 font-bold text-2xl">P</span>
+          <img src="/logo.png" alt="Company Logo" className="w-12 h-12" />
         </div>
         <h1 className="text-2xl font-bold mb-4">
           {mode === "login" ? "Login to Periskope" : "Sign Up for Periskope"}
