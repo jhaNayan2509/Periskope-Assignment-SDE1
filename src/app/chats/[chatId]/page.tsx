@@ -1,11 +1,7 @@
-
 import ChatWindow from "@/components/ChatWindow";
 
-export default async function ChatIdPage({
-  params,
-}: {
-  params: { chatId: string };
-}) {
-  const { chatId } = await params; // Await the params object
+export default function ChatIdPage({ params }: { params: { chatId: string } }) {
+  // No await needed here!
+  const { chatId } = params;
   return <ChatWindow chatId={chatId} />;
 }
